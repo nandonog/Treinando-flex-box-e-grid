@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #000;
+}
+
+/* Navbar */
+
+.menu {
+  /* border: 2px solid #000; */
+  height: 60px;
+  width: 94%;
+  margin: 0 auto;
+  padding: 8px 15px 0 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-menu {
+  margin-top: 40px;
+}
+
+.logo-menu img {
+  width: 138px;
+}
+
+.btn-menu {
+  height: 100%;
+  width: 190px;
+  margin-top: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn-login {
+  background-color: red;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 3px;
+}
+
+#idioma-nav {
+  height: 32px;
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid #aaa;
+  color: #fff;
+  font-size: 0.875rem;
+  padding: 0 5px 0 4px;
+  border-radius: 3px;
+}
+
+/* End Navbar */
+
+/* Main conteiner */
+
+.background-main {
+  background-image: url("/assets/image/BR-pt-20221206-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-size: cover;
+  box-shadow: inset 0 0px 900px 170px;
+}
+
+.opacity-main {
+  position: absolute;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.main-conteiner {
+  color: #fff;
+  height: 95vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 8px solid #222;
+}
+
+
+.card-title h1 {
+  text-align: center;
+  text-shadow: 2px 2px 25px #000;
+  max-width: 750px;
+  font-size: 3rem;
+}
+.card-title h2 {
+  text-shadow: 2px 2px 25px #000;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+
+.form-card-title {
+  max-width: 730px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-card-title h3 {
+  text-shadow: 2px 2px 25px #000;
+  font-size: 0.97rem;
+  font-weight: 300;
+
+  margin-bottom: 15px;
+}
+
+.card-go {
+  display: flex;
+  width: 110%;
+}
+
+#card-form {
+  height: 55px;
+  width: 95%;
+  padding-left: 8px;
+  margin: 0 auto;
+}
+.btn-form-go {
+  background-color: red;
+  color: #fff;
+  font-size: 1.2rem;
+  border: none;
+  width: 42%;
+}
+
+/* end main conteiner */
+
+/* One-flex */
+
+.background-color {
+  border-bottom: 8px solid #222;
+}
+
+.one-flex {
+  border: 2px solid #000;
+  height: 75vh;
+  width: 98vw;
+  margin: 0 auto;
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tile-flex-one {
+  border: 2px solid #000;
+  height: 250px;
+  width: 440px;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* text-align: center; */
+}
+.h1 {
+    width: 300px;
+    /* margin: 0 auto; */
+}
+.tile-flex-one h1 {
+  font-size: 2.3rem;
+  margin-bottom: 10px;
+  /* margin-left: 45px; */
+}
+
+.tile-flex-one h2 {
+  font-size: 1.3rem;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.tile-flex-two {
+  border: 2px solid rgb(0, 0, 0);
+  height: 346px;
+  width: 460px;
+  position: relative;
+  bottom: 28px;
+}
+
+.tile-flex-two img {
+  position: absolute;
+  max-width: 458px;
+  z-index: 2;
+}
+.tile-flex-two video {
+  z-index: 1;
+  position: relative;
+  top: 71px;
+  left: 60px;
+  max-width: 334px;
+}
+
+@media (width < 945px) {
+  .card-go {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn-form-go {
+    height: 46px;
+    margin: 15px auto;
+    font-size: 1rem;
+  }
+  .one-flex {
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    height: 40rem;
+  }
+  .tile-flex-one {
+    width: 100%;
+    text-align: center;
+    /* margin: 0 auto; */
+  }
+  .h1 {
+    width: 300px;
+    margin: 0 auto;
+}
+  /* .tile-flex-one h1 {
+    margin-left: 37%;
+  } */
+  .tile-flex-one h2 {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media (width < 501px) {
+  .background-main {
+    box-shadow: inset 0 0px 894px 135px;
+  }
+  .main-conteiner {
+    height: 80vh;
+  }
+
+  .card-title h1 {
+    font-size: 1.5rem;
+  }
+  .card-title h2 {
+    font-size: 1.2rem;
+  }
+  .card-go {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-card-title h3 {
+    margin: 0 auto;
+    font-size: 1rem;
+    width: 300px;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  #card-form {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+  }
+
+  .btn-form-go {
+    height: 46px;
+    margin: 15px auto;
+    font-size: 1rem;
+  }
+  .tile-flex-one h1 {
+    margin-left: 25px;
+    width: 250px;
+    font-size: 2rem;
+  }
+  .tile-flex-one h2 {
+    width: 300px;
+    font-size: 1rem;
+    line-height: 20px;
+  }
+
+  .tile-flex-two {
+    width: 406px;
+    position: relative;
+    top: -70px;
+    right: 65px;
+  }
+  .tile-flex-two img {
+    width: 300px;
+    position: absolute;
+    left: 117px;
+  }
+  .tile-flex-two video {
+    width: 216px;
+    position: relative;
+    top: 47px;
+    left: 159px;
+  }
+}
+
+@media (height < 515px) {
+  .main-conteiner {
+    height: 30rem;
+  }
+  .one-flex {
+    height: 40rem;
+  }
+
+  .tile-flex-two {
+    position: relative;
+    top: -60;
+    left: 0;
+
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* End One Flex */
