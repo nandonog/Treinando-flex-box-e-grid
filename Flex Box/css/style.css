@@ -242,7 +242,7 @@ body {
 
 @media (width < 501px) {
   .background-main {
-    box-shadow: inset 0 0px 894px 135px;
+    box-shadow: inset 0 0px 900px 105px;
   }
   .main-conteiner {
     height: 70vh;
