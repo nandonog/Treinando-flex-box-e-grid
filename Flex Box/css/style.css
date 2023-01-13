@@ -225,15 +225,12 @@ body {
   .tile-flex-one {
     width: 100%;
     text-align: center;
-    /* margin: 0 auto; */
+    margin: 0 auto
   }
   .h1 {
     width: 300px;
     margin: 0 auto;
 }
-  /* .tile-flex-one h1 {
-    margin-left: 37%;
-  } */
   .tile-flex-one h2 {
     text-align: center;
     margin: 0 auto;
@@ -241,6 +238,17 @@ body {
 }
 
 @media (width < 501px) {
+
+  .logo-menu {
+    margin-top: 0;
+  }
+  .btn-menu {
+    margin-top: -5px;
+  }
+  
+  .logo-menu img {
+    width: 100px;
+  }
   .background-main {
     box-shadow: inset 0 0px 900px 105px;
   }
