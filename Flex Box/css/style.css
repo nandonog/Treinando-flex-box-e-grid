@@ -249,10 +249,12 @@ body {
   }
 
   .card-title h1 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    width: 318px;
+    margin: 0 auto;
   }
   .card-title h2 {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
   }
   .card-go {
     display: flex;
@@ -261,7 +263,7 @@ body {
   .form-card-title h3 {
     margin: 0 auto;
     font-size: 1rem;
-    width: 300px;
+    width: 263px;
     text-align: center;
     margin-bottom: 15px;
   }
