@@ -67,6 +67,7 @@
   }
   .content-title {
     text-align: center;
+    margin: 0 auto;
 
     position: relative;
     bottom: 25px;
@@ -127,4 +128,122 @@
     width: 80%;
     margin: 0 auto;
   }
+}
+
+      /* Main conteiner three  */
+
+
+  .main-conteiner-three {
+    height: 75vh;
+    width: 98%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }   
+  
+  .content-title-three {
+    width: 500px;
+    height: 400px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .title-h1-three {
+    width: 400px;
+    margin-bottom: 15px;
+  }
+
+  .border {
+    border-radius: 50%;
+  }
+
+  .content-title-three h1 {
+    font-size: 2.4rem;
+  }
+  .content-title-three h2 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    width: 453px;
+  }
+
+  .content-media-img {
+    /* width: 95%; */
+    height: 95%;
+
+    position: relative;
+  }
+  .content-media-img img {
+    width: 480px;
+  }
+
+  @media (width < 945px) {
+    .main-conteiner-three {
+      display: flex;
+      flex-direction: column;
+
+      height: 40rem;
+    }
+
+    .content-title-three {
+      margin: 0 auto;
+      width: 95%;
+    }
+    .title-h1-three {
+      font-size: 1.8rem;
+      text-align: center;
+      width: 95%;
+      margin: 10px auto;
+    }
+    .content-title-three h2 {
+      width: 100%;
+      text-align: center;
+      font-size: 1.2rem;
+  }
+
+  .content-media-img {
+    width: 98%;
+  }
+  .content-media-img img {
+    width: 440px;
+    position: relative;
+    /* left: 30px; */
+  }
+}
+
+@media (width < 501px) {
+
+  .main-conteiner-three {
+    height: 25rem;
+  }
+  .content-title-three {
+    margin: 0 auto;
+    width: 95%;
+  }
+  .title-h1-three {
+    text-align: center;
+    width: 95%;
+    margin: 10px auto;
+  }
+  .title-h1-three h1 {
+    font-size: 2rem;
+  }
+  .content-title-three h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.content-media-img {
+  width: 98%;
+}
+.content-media-img img {
+  width: 295px;
+  position: relative;
+  left: 30px;
+}
 }
