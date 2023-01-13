@@ -1,0 +1,130 @@
+.main-conteiner-two {
+  background-color: rgb(0, 0, 0);
+  height: 75vh;
+  width: 98vw;
+  margin: 0 auto;
+  margin-top: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-media {
+  height: 400px;
+  width: 480px;
+  border: 1px solid #000;
+  position: relative;
+}
+.content-media img {
+  position: absolute;
+  width: 530px;
+  height: 395px;
+  left: -36px;
+  top: 3px;
+  z-index: 2;
+}
+.content-media video {
+  position: relative;
+  top: 33px;
+  left: 65px;
+  height: 210px;
+  width: 323px;
+  z-index: 1;
+}
+.content-title {
+  height: 400px;
+  width: 491px;
+  margin-left: 45px;
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.title-h1 {
+  width: 100%;
+}
+.content-title h1 {
+  font-size: 2.4rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.content-title h2 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+@media (width < 945px) {
+  .main-conteiner-two {
+    display: flex;
+    flex-direction: column-reverse;
+
+    height: 40rem;
+  }
+  .content-title {
+    text-align: center;
+
+    position: relative;
+    bottom: 25px;
+    width: 90%;
+  }
+  .content-title h2 {
+    text-align: center;
+  }
+
+  .content-media {
+    position: relative;
+    bottom: 90px;
+  }
+}
+
+@media (width < 501px) {
+  .main-conteiner-two {
+    height: 25rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .content-media {
+    width: 380px;
+    bottom: 36px;
+  }
+
+  .content-media img {
+    height: 250px;
+    width: 340px;
+    position: absolute;
+    left: 18px;
+    top: 0px;
+  }
+
+  .content-media video {
+    width: 211px;
+    position: relative;
+    left: 78px;
+    top: -21px;
+  }
+
+  .content-title {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .title-h1 {
+    margin: 0 auto;
+  }
+  .content-title h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    width: 100%;
+  }
+  .content-title h2 {
+    font-size: 1rem;
+    line-height: 20px;
+    width: 80%;
+    margin: 0 auto;
+  }
+}
