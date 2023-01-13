@@ -280,6 +280,9 @@ body {
     margin: 15px auto;
     font-size: 1rem;
   }
+  .one-flex {
+    height: 30rem;
+  }
   .tile-flex-one h1 {
     margin-left: 25px;
     width: 250px;
@@ -294,7 +297,8 @@ body {
   .tile-flex-two {
     width: 406px;
     position: relative;
-    top: -70px;
+    /* top: -70px; */
+    top: -44px;
     right: 65px;
   }
   .tile-flex-two img {
