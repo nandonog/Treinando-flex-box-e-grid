@@ -140,6 +140,8 @@ body {
 }
 
 .one-flex {
+  background-color: #000;
+
   border: 2px solid #000;
   height: 75vh;
   width: 98vw;
@@ -203,6 +205,7 @@ body {
   .card-go {
     display: flex;
     flex-direction: column;
+    width: 98%;
   }
   .btn-form-go {
     height: 46px;
