@@ -263,6 +263,7 @@ body {
   .card-go {
     display: flex;
     flex-direction: column;
+    width: 90vw;
   }
   .form-card-title h3 {
     margin: 0 auto;
