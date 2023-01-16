@@ -206,9 +206,15 @@
     padding: 0px 16px;
     line-height: 30px;
   }
+
+ 
 }
 
 @media (width < 501px) {
+
+  .card-doubt-five {
+    overflow: hidden;
+  }
   .doubt-title h1 {
     text-align: center;
     font-size: 1.9rem;
@@ -297,6 +303,21 @@
   font-weight: 500;
   color: #fff;
   background-color: red;
+}
+
+@media (max-width: 950px) {
+  .form-btn-input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  #end-email {
+    height: 50px;
+  }
+  .end-button {
+    height: 54px;
+    font-size: 1rem;
+  }
 }
 
 @media (width < 501px) {
