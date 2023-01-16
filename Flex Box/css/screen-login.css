@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.screen-login {
+    background-image: url('/assets/image/screem-login.jpg');
+    background-size: auto;
+    box-shadow: inset 0 0px 800px 75px;
+    overflow: hidden;
+
+    height: 100%;
+    width: 100%;
+}
+
+.nav-netflix {
+    height: 80px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.logo-nav {
+    width: 163px;
+}
+.logo-nav img {
+    width: 100%;
+    margin-top: -35px
+}
+.conteiner-login {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-login {
+    background-color: rgba(0, 0, 0, .8);
+    border-radius: 4px;
+
+    height: 100%;
+    width: 410px;
+
+    padding: 60px 64px 40px;
+    margin-bottom: 25px;
+}
+
+.conteiner-login h1 {
+    color: #fff;
+    font-size: 1.6rem;
+}
+
+.input-email,
+.input-senha {
+    font-size: .9rem;
+    background-color: #333;
+    border: none;
+    border-radius: 3px;
+    height: 46px;
+    width: 100%;
+    padding: 10px 16px;
+}
+
+.input-email {
+    margin-top: 30px;
+    margin-bottom: 18px;
+}
+.btn-screen {
+    width: 100%;
+    height: 46px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    font-size: 1rem;
+
+    margin-top: 35px;
+}
+
+.input-check {
+    display: flex;
+    justify-content: flex-start;
+    color: #b3b3b3;
+    font-size: .75rem;
+    margin-top: 14px;
+}
+.label-check {
+    margin-left: 5px;
+}
+.input-check p {
+    margin-left: auto;
+}
+.footer-login {
+    margin-top: 75px;
+    margin-bottom: 65px;
+    padding: 10px 0;
+}
+.footer-login h4 {
+    font-weight: 300;
+    font-size: .9rem;
+    color: #737373;
+    margin-bottom: 10px;
+}
+.footer-login p {
+    color: #737373;
+    font-size: .75rem;
+    line-height: 16px;
+}
+.footer-login .footer-a1 {
+    color: #fff;
+    font-weight: 700;
+}
+.footer-login a {
+    color: #0071eb;
+    text-decoration: none;
+}
+.footer-login a:hover {
+    text-decoration: underline;
+}
+
+@media (width < 745px) {
+    .conteiner-login {
+        width: 100%;
+    }
+
+    .nav-netflix {
+        background-color: #000;
+        width: 100%;
+    }
+    .logo-nav {
+        padding-left: 15px;
+        width: 176px;
+    }
+    .content-login {
+        background-color: #000;
+        border-bottom: 1px solid #ccc;
+        height: 80vh;
+        width: 100vw;
+        padding: 5px 30px 40px;;
+    }
+}

@@ -34,7 +34,7 @@ body {
 }
 
 .logo-menu img {
-  width: 138px;
+  width: 165px;
 }
 
 .btn-menu {
@@ -53,6 +53,10 @@ body {
   border: none;
   padding: 8px 14px;
   border-radius: 3px;
+}
+.btn-login a {
+  text-decoration: none;
+  color: #fff;
 }
 
 #idioma-nav {
