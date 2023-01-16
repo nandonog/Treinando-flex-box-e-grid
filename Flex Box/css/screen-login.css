@@ -96,6 +96,13 @@ body {
 .input-check p {
     margin-left: auto;
 }
+.input-check  a {
+    color: #b3b3b3;
+    text-decoration: none;
+}
+.input-check  a:hover {
+    text-decoration: underline;
+}
 .footer-login {
     margin-top: 75px;
     margin-bottom: 65px;
