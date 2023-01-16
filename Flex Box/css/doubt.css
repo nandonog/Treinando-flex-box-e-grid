@@ -314,6 +314,7 @@
   }
   #end-email {
     height: 40px;
+    border: none;
     background-color: #fff;
   }
   .end-button {
