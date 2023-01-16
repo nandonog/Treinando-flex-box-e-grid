@@ -7,7 +7,13 @@
 body {
   font-family: sans-serif;
   background-color: #000;
+  overflow-x: hidden;
 }
+
+/* .border-e {
+  border: 2px solid red;
+  background-color: aqua;
+} */
 
 /* Navbar */
 
@@ -142,9 +148,8 @@ body {
 .one-flex {
   background-color: #000;
 
-  border: 2px solid #000;
   height: 75vh;
-  width: 98vw;
+  width: 100%;
   margin: 0 auto;
   margin-top: 10px;
 
@@ -154,7 +159,6 @@ body {
 }
 
 .tile-flex-one {
-  border: 2px solid #000;
   height: 250px;
   width: 440px;
   color: #fff;
@@ -181,24 +185,22 @@ body {
 }
 
 .tile-flex-two {
-  border: 2px solid rgb(0, 0, 0);
-  height: 346px;
-  width: 460px;
+  height: 406px;
+  max-width: 540px;
   position: relative;
-  bottom: 28px;
 }
 
 .tile-flex-two img {
-  position: absolute;
-  max-width: 458px;
+  position: relative;
+  width: 100%;
   z-index: 2;
 }
 .tile-flex-two video {
   z-index: 1;
   position: relative;
-  top: 71px;
-  left: 60px;
-  max-width: 334px;
+  bottom: 323px;
+  left: 70px;
+  max-width: 392px;
 }
 
 @media (width < 945px) {
@@ -215,11 +217,11 @@ body {
   .one-flex {
     display: flex;
     flex-direction: column;
-    width: 95vw;
+    width: 100%;
     height: 40rem;
   }
   .tile-flex-one {
-    width: 100%;
+    width: 95%;
     text-align: center;
     margin: 0 auto
   }
@@ -230,6 +232,10 @@ body {
   .tile-flex-one h2 {
     text-align: center;
     margin: 0 auto;
+  }
+  .tile-flex-two {
+    position: relative;
+    bottom: 30px;
   }
 }
 
@@ -246,7 +252,7 @@ body {
     width: 100px;
   }
   .background-main {
-    box-shadow: inset 0 0px 900px 105px;
+    box-shadow: inset 0 0px 900px 100px;
   }
   .main-conteiner {
     height: 70vh;
@@ -273,7 +279,7 @@ body {
     margin-bottom: 15px;
   }
   #card-form {
-    width: 100%;
+    width: 98%;
     height: 50px;
     margin: 0 auto;
     background-color: #fff;
@@ -287,6 +293,7 @@ body {
   }
   .one-flex {
     height: 25rem;
+    width: 100%;
   }
   .tile-flex-one h1 {
     margin-left: 25px;
@@ -300,26 +307,25 @@ body {
   }
 
   .tile-flex-two {
-    width: 406px;
+    height: 400px;
+    width: 300px;
     position: relative;
-    /* top: -70px; */
-    top: -28px;
-    right: 65px;
+    /* bottom: 10px; */
   }
   .tile-flex-two img {
-    width: 300px;
+    width: 100%;
     position: absolute;
-    left: 117px;
   }
   .tile-flex-two video {
     width: 216px;
     position: relative;
     top: 47px;
-    left: 159px;
+    left: 40px;
   }
 }
 
 @media (height < 515px) {
+
   .main-conteiner {
     height: 30rem;
   }
