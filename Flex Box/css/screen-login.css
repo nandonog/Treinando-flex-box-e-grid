@@ -252,4 +252,10 @@ body {
         position: relative;
         bottom: 26px;
     }
+
+    .footer-divide-bottom {
+        border: 5px solid #222 ;
+        width: 100%;
+    }
+    
 }
