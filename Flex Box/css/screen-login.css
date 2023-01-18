@@ -237,10 +237,6 @@ body {
 
 @media (max-width: 501px) {
 
-    .conteiner-login {
-        height: 70vh;
-    }
-
     .screen-login {
         background-image: none;
         background-color: #000;
